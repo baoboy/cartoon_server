@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddNewUserServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.AddNewUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCartoonContentByCartoonID</servlet-name>
+    <servlet-class>com.cartoon.servlet.FindCartoonContentByCartoonID</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCartoonListServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.GetCartoonListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertCartoonContentServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.InsertCartoonContentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertCartoonImageServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.InsertCartoonImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertCartoonServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.InsertCartoonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayCartoonServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.PayCartoonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PictureServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.PictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecommendServlet</servlet-name>
+    <servlet-class>com.cartoon.servlet.RecommendServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AddNewUserServlet</servlet-name>
+    <url-pattern>/servlet/AddNewUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCartoonContentByCartoonID</servlet-name>
+    <url-pattern>/servlet/FindCartoonContentByCartoonID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCartoonListServlet</servlet-name>
+    <url-pattern>/servlet/GetCartoonListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertCartoonContentServlet</servlet-name>
+    <url-pattern>/servlet/InsertCartoonContentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertCartoonImageServlet</servlet-name>
+    <url-pattern>/servlet/InsertCartoonImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertCartoonServlet</servlet-name>
+    <url-pattern>/servlet/InsertCartoonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayCartoonServlet</servlet-name>
+    <url-pattern>/servlet/PayCartoonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PictureServlet</servlet-name>
+    <url-pattern>/servlet/PictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecommendServlet</servlet-name>
+    <url-pattern>/servlet/RecommendServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
