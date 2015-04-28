@@ -9,9 +9,10 @@ public class Test {
 	private static Connection conn = DBConnection.getConnection();
 
 	public static void main(String[] args) {
-		for (int i = 1; i < 15; i++) {
-			insert(1002, 100 + i, "第" + i + "话");
+		for (int i = 1; i < 6; i++) {
+			insert(1005, 100 + i, "第" + i + "话");
 		}
+		System.out.println("finish");
 	}
 
 	private static void insert(int cartoon_id, int cartoon_title_id,

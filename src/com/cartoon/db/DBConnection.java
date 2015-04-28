@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	private static final String DBDRIVER = "com.mysql.jdbc.Driver";
-	private static final String DBURL = "jdbc:mysql://192.168.1.108:3306/cartoon";
+	private static final String DBURL = "jdbc:mysql://127.0.0.1:3306/cartoon";
 	private static final String DBUSER = "root";
-	private static final String DBPASSWORD = "123456";
+	private static final String DBPASSWORD = "passwordbinbin";
 	private static Connection conn = null;
 
 	static {

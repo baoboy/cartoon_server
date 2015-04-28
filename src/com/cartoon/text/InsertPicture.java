@@ -18,7 +18,7 @@ public class InsertPicture extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		String serverPath = "http://www.timesyw.com:8001/cartoon/pictures/";
+		String serverPath = "http://192.168.1.102:8080/cartoon/cartoon_picture/";
 
 		System.out.println(serverPath);
 		for (int i = 1; i < 31; i++) {
