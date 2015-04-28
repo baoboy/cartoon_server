@@ -8,17 +8,15 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	private static final String DBDRIVER = "com.mysql.jdbc.Driver";
-	private static final String DBURL = "jdbc:mysql://114.112.48.148:3306/cartoon";
-	private static final String DBUSER = "mobile_cmcc";
-	private static final String DBPASSWORD = "3edc4rfv@";
+	private static final String DBURL = "jdbc:mysql://192.168.1.108:3306/cartoon";
+	private static final String DBUSER = "root";
+	private static final String DBPASSWORD = "123456";
 	private static Connection conn = null;
 
 	static {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(
-					"jdbc:mysql://114.112.48.148:3306/cartoon", "mobile_cmcc",
-					"3edc4rfv@");
+			Class.forName(DBDRIVER);
+			conn = DriverManager.getConnection(DBURL, DBUSER, DBPASSWORD);
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println(e.toString());

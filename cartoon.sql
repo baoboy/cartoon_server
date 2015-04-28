@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost_3306
-Source Server Version : 50529
+Source Server Version : 50520
 Source Host           : localhost:3306
 Source Database       : cartoon
 
 Target Server Type    : MYSQL
-Target Server Version : 50529
+Target Server Version : 50520
 File Encoding         : 65001
 
-Date: 2015-03-13 10:19:20
+Date: 2015-04-28 19:32:10
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -8065,74 +8065,23 @@ CREATE TABLE `cartoon_content_list` (
 -- ----------------------------
 -- Records of cartoon_content_list
 -- ----------------------------
-INSERT INTO `cartoon_content_list` VALUES ('1004', '100', '第1话', null);
-INSERT INTO `cartoon_content_list` VALUES ('1004', '101', '第2话', null);
-INSERT INTO `cartoon_content_list` VALUES ('1005', '100', '第1话', null);
-INSERT INTO `cartoon_content_list` VALUES ('1005', '101', '第2话', null);
-INSERT INTO `cartoon_content_list` VALUES ('1008', '100', '第1集', '');
-INSERT INTO `cartoon_content_list` VALUES ('1008', '101', '第2集', '');
-INSERT INTO `cartoon_content_list` VALUES ('1009', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1009', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1009', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1009', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1010', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1010', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1010', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1010', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '104', '第5话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '105', '第6话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '106', '第7话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '107', '第8话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '108', '第9话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1011', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '104', '第5话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '105', '第6话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '106', '第7话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '107', '第8话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '108', '第9话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '109', '第10话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '110', '第11话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '111', '第12话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '112', '第13话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '113', '第14话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1006', '114', '第15话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1003', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1003', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1003', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1001', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1001', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1001', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1001', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1002', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1002', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1002', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1002', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '100', '第1话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '101', '第2话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '102', '第3话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '103', '第4话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '104', '第5话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '105', '第6话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '106', '第7话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '107', '第8话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '108', '第9话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '109', '第10话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '110', '第11话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '111', '第12话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '112', '第13话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '113', '第14话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '114', '第15话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '115', '第16话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '116', '第17话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '117', '第18话', '');
-INSERT INTO `cartoon_content_list` VALUES ('1007', '118', '第19话', '');
+INSERT INTO `cartoon_content_list` VALUES ('1001', '101', '第1话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1001', '102', '第2话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1001', '103', '第3话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '101', '第1话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '102', '第2话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '103', '第3话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '104', '第4话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '105', '第5话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '106', '第6话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '107', '第7话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '108', '第8话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '109', '第9话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '110', '第10话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '111', '第11话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '112', '第12话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '113', '第13话', null);
+INSERT INTO `cartoon_content_list` VALUES ('1002', '114', '第14话', null);
 
 -- ----------------------------
 -- Table structure for `cartoon_list`
@@ -8156,14 +8105,13 @@ CREATE TABLE `cartoon_list` (
 -- ----------------------------
 -- Records of cartoon_list
 -- ----------------------------
-INSERT INTO `cartoon_list` VALUES ('1001', '聪明猴与糊涂猴', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/congminghouyuhutuhou/cover.jpg', '5', '更新到4话', '聪明猴与糊涂猴', '1', '1.00', null, '300006181002');
-INSERT INTO `cartoon_list` VALUES ('1002', '红楼梦后传二', '1', '北京重磅动漫文化传媒有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/hongloumenghouzhuan2/cover.jpg', '5', '更新到4话', '红楼梦后传二', '1', '1.00', null, '300006181002');
+INSERT INTO `cartoon_list` VALUES ('1001', '庄子', '1', '南京启晨兴', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/zhuangzi/cover.jpg', '5', '更新到3话', '庄子', '1', '1.00', null, '300006181002');
+INSERT INTO `cartoon_list` VALUES ('1002', '名人家训', '1', '南京启晨兴', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/mingrenjiaxun/cover.jpg', '5', '更新到14话', '名人家训', '1', '1.00', null, '300006181002');
 INSERT INTO `cartoon_list` VALUES ('1003', '火眼神探司马特', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8001/cartoon/images/content/hystsmt/cover.jpg', '5', '更新到3话', '火眼神探司马特', '1', '0.10', null, '300006181001');
-INSERT INTO `cartoon_list` VALUES ('1006', '职场进行时', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/zhichangjinxingshi/cover.jpg', '5', '更新到15话', '职场进行时', '1', '5.00', null, '300006181004');
-INSERT INTO `cartoon_list` VALUES ('1007', '顽皮的亮仔', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/wanpideliangzai/cover.jpg', '5', '更新到19话', '顽皮的亮仔', '1', '7.00', null, '300006181005');
-INSERT INTO `cartoon_list` VALUES ('1009', '红楼梦后传一', '1', '北京重磅动漫文化传媒有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/hongloumenghouzhuan1/hlmhz1_cover.jpg', '5', '更新到4话', '红楼梦后传一', '1', '1.00', null, '300006181002');
-INSERT INTO `cartoon_list` VALUES ('1010', '红楼梦后传三', '1', '北京重磅动漫文化传媒有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/hongloumenghouzhuan3/hlmhz3_cover.jpg', '5', '更新到4话', '红楼梦后传三', '1', '1.00', null, '300006181002');
-INSERT INTO `cartoon_list` VALUES ('1011', '古今中外故事汇', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/gujinzhongwaigushihui/gjzwgsh_cover.jpg', '5', '更新到9话', '古今中外故事汇', '1', '3.00', null, '300006181003');
+INSERT INTO `cartoon_list` VALUES ('1004', '幼学琼林', '1', '南京启晨兴', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/youxueqionglin/cover.jpg', '5', '更新到4话', '幼学琼林', '1', '5.00', null, '300006181004');
+INSERT INTO `cartoon_list` VALUES ('1005', '诸子百家', '1', '南京启晨兴', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/zhuzibaijia/cover.jpg', '5', '更新到5话', '诸子百家', '1', '7.00', null, '300006181005');
+INSERT INTO `cartoon_list` VALUES ('1003', '火眼神探司马特', '1', '北京酷漫堂动漫文化发展有限公司', 'http://www.timesyw.com:8001/cartoon/images/content/hystsmt/cover.jpg', '5', '更新到3话', '火眼神探司马特', '1', '0.10', null, '300006181001');
+INSERT INTO `cartoon_list` VALUES ('1007', '千字文', '0', '南京启辰兴', 'http://www.timesyw.com:8080/cartoon/cartoon_pictures/qianziwen/cover.jpg', '5', '更新到9话', '千字文', '1', '1.00', null, '300006181002');
 
 -- ----------------------------
 -- Table structure for `cartoon_recommend`
